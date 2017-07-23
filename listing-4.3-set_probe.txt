@@ -1,0 +1,4 @@
+oc set probe dc/app-cli --readiness --get-url=http://:8080/notreal --initial-delay-seconds=5
+
+#look for deployed pod after creating readiness probe
+oc get pods

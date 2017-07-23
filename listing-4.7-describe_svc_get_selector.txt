@@ -1,0 +1,1 @@
+oc describe svc app-cli | grep Selector
